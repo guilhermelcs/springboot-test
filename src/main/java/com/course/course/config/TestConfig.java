@@ -10,6 +10,8 @@ import org.springframework.context.annotation.Profile;
 import com.course.course.entities.User;
 import com.course.course.repositories.UserRepository;
 
+//Serve para popular o banco de dados de teste
+
 @Configuration
 @Profile("test")
 public class TestConfig implements CommandLineRunner {
